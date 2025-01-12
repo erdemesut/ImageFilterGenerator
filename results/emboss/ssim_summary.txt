@@ -1,0 +1,2 @@
+Average SSIM: 0.9942
+Percentage of images with SSIM > 80%: 99.98%
