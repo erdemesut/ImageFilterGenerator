@@ -89,7 +89,7 @@ class FilterApplication:
 
     def select_image(self):
         # open file dialog to select image
-        file_path = filedialog.askopenfilename(filetypes=[("Image Files", "*.jpg;*.jpeg;*.png")])
+        file_path = filedialog.askopenfilename(filetypes=[("Image Files", "*.jpg *.jpeg *.png")])
         if not file_path:
             return
 
