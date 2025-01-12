@@ -26,7 +26,7 @@ def apply_artistic_filter(input_folder, output_folder):
             cv2.imwrite(output_path, oil_painting)
             print(f"Filtered image saved: {output_path}")
 
-input_folder = "fiveK/original"
-output_folder = "fiveK/oilpainting"
+input_folder = "dataset/training/original"
+output_folder = "dataset/training/filtered"
 
 apply_artistic_filter(input_folder, output_folder)

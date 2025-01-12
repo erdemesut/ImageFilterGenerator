@@ -25,7 +25,7 @@ def apply_basic_filter(input_folder, output_folder):
             cv2.imwrite(output_path, grayscale_image)
             print(f"Filtered image saved: {output_path}")
 
-input_folder = "fiveK/original"
-output_folder = "fiveK/grayscale"
+input_folder = "dataset/training/original"
+output_folder = "dataset/training/filtered"
 
 apply_basic_filter(input_folder, output_folder)

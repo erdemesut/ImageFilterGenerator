@@ -19,7 +19,7 @@ transform = transforms.Compose([
 ])
 
 # load input image
-input_image_path = "65567.jpg"
+input_image_path = "image.jpg"
 input_image = Image.open(input_image_path).convert("RGB")
 input_tensor = transform(input_image).unsqueeze(0).to(device)
 

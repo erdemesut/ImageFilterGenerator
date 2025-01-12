@@ -28,8 +28,8 @@ def apply_high_pass_filter(input_folder, output_folder, kernel_size):
             cv2.imwrite(output_path, high_pass_image)
             print(f"Filtered image saved: {output_path}")
 
-input_folder = "fiveK/original"
-output_folder = "fiveK/highpass"
+input_folder = "dataset/training/original"
+output_folder = "dataset/training/filtered"
 kernel_size = 15
 
 apply_high_pass_filter(input_folder, output_folder, kernel_size)

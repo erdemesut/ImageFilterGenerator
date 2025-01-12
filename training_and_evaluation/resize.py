@@ -3,14 +3,6 @@ import os
 
 
 def resize_images_in_folder(input_folder, output_folder, size=(256, 256)):
-    """
-    Resize all images in the input folder to the specified size and save them to the output folder.
-
-    Args:
-        input_folder (str): Path to the folder containing the original images.
-        output_folder (str): Path to the folder where resized images will be saved.
-        size (tuple): Desired size (width, height) for the resized images.
-    """
     # ensure the output folder exists
     os.makedirs(output_folder, exist_ok=True)
 
@@ -32,7 +24,7 @@ def resize_images_in_folder(input_folder, output_folder, size=(256, 256)):
             print(f"Failed to process {filename}: {e}")
 
 
-input_folder = "exess_data/original"
-output_folder = "exess_data/original"
+input_folder = "dataset/data"
+output_folder = "dataset/training/original"
 
 resize_images_in_folder(input_folder, output_folder)

@@ -5,8 +5,8 @@ import os
 input_folder = "fiveK/fiveK_dataset"
 
 # output directories
-output_original_folder = "fiveK/original"
-output_filtered_folder = "fiveK/enhanced_sepia"
+output_original_folder = "dataset/training/original"
+output_filtered_folder = "dataset/training/filtered"
 
 # desired size (width, height)
 desired_size = (256, 256)

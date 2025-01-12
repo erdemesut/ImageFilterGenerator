@@ -26,8 +26,8 @@ def apply_low_pass_filter(input_folder, output_folder, kernel_size):
             print(f"Filtered image saved: {output_path}")
 
 
-input_folder = "fiveK/original"
-output_folder = "fiveK/gaussian"
+input_folder = "dataset/training/original"
+output_folder = "dataset/training/filtered"
 kernel_size = 15
 
 apply_low_pass_filter(input_folder, output_folder, kernel_size)

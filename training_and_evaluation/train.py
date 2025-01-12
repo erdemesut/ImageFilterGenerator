@@ -30,7 +30,7 @@ transform = transforms.Compose([
     transforms.ToTensor(),
 ])
 
-train_dataset = FilterDataset("dataset/train/original2", "dataset/train/filtered", transform=transform)
+train_dataset = FilterDataset("dataset/train/original", "dataset/train/filtered", transform=transform)
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 
 # initialize model, loss function, and optimizer

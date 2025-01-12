@@ -22,8 +22,8 @@ def compare_images(image_path1, image_path2):
 
     return score, diff
 
-image1_path = "C:\\Users\\medre\Desktop\\uni archive\\4_1\\grad_project\\project_files\\latex\media\\girl_sepia.jpg"
-image2_path = "C:\\Users\\medre\\Desktop\\uni archive\\4_1\\grad_project\\project_files\\latex\media\\girl_ai_9.jpg"
+image1_path = "image1.jpg"
+image2_path = "image2.jpg"
 
 try:
     ssim_score, diff_image = compare_images(image1_path, image2_path)
