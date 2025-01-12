@@ -6,3 +6,4 @@ pytorch-msssim
 numpy
 tk
 matplotlib
+opencv-contrib-python
